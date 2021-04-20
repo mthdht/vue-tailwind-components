@@ -1,7 +1,10 @@
 {
-  "name": "package",
+  "name": "@mthdht/vue-tailwind-components",
   "version": "0.1.0",
-  "private": true,
+  "main": "src/main",
+  "module": "src/main",
+  "browser": "src/main.js",
+  "typings": "src/main.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -15,9 +18,12 @@
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "autoprefixer": "^10.2.5",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.4",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
